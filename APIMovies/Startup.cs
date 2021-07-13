@@ -66,7 +66,6 @@ namespace APIMovies
 			}
 			app.UseSwagger();
 			app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIMovies v1"));
-			app.UsePathBase("/apimovie");
 
 			app.UseRouting();
 
